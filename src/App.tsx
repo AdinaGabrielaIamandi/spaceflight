@@ -6,10 +6,11 @@ import { NavComp } from "./components/NavComp";
 import { HomeComp } from "./components/HomeComp";
 import { FooterComp } from "./components/FooterComp";
 import { ArtDetails } from "./components/ArtDetails";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App">
+    <Container fluid>
       <BrowserRouter>
         <NavComp />
         <Routes>
@@ -18,7 +19,7 @@ function App() {
         </Routes>
         <FooterComp />
       </BrowserRouter>
-    </div>
+    </Container>
   );
 }
 

@@ -31,7 +31,7 @@ export const ArtDetails = () => {
     <Container>
       <Card className="m-5">
         <Card.Img variant="top" src={singleArt?.imageUrl} style={{ height: "400px" }} />
-        <Card.Body>
+        <Card.Body className="m-3 text-center">
           <Card.Title>{singleArt?.title}</Card.Title>
           <Card.Text>{singleArt?.summary}</Card.Text>
         </Card.Body>
