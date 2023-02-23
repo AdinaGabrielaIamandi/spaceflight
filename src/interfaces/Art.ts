@@ -1,5 +1,4 @@
 export interface Art {
-  artID: number;
   id: number;
   title: string;
   url: string;

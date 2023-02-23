@@ -9,7 +9,9 @@ export const NavComp = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Link to={"/"}>News</Link>
+            <Link className="nav-link" to={"/"}>
+              News
+            </Link>
             <Nav.Link href="#pricing">Opinion</Nav.Link>
             <Nav.Link href="#pricing">Civiln</Nav.Link>
             <Nav.Link href="#pricing">Commercial</Nav.Link>

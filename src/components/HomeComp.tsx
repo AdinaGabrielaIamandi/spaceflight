@@ -31,7 +31,7 @@ export const HomeComp = () => {
       <Row>
         {articles.map((article, i) => {
           return (
-            <Col xs={12} md={3}>
+            <Col xs={6} lg={3}>
               <SingleArticle key={i} article={article} />
             </Col>
           );
